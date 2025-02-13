@@ -1,55 +1,55 @@
 % Facts about destinations with accommodation
 %SARARA TREEHOUSES
-destination(sarara_treehouses, location(namunyak), plan(culture), accommodation([private_house, dayroom, room])).
-destination(sarara_treehouses, location(namunyak), plan(conservation), accommodation([private_house, dayroom, room])).
+destination(sarara_treehouses, location(namunyak), plan(culture), accommodation([family_unit, room])).
+destination(sarara_treehouses, location(namunyak), plan(conservation), accommodation([family_unit, room])).
 
 
 %SARARA CAMP
-destination(sarara_camp, location(namunyak), plan(romance), accommodation([private_house, dayroom, room])).
-destination(sarara_camp, location(namunyak), plan(wildlife), accommodation([private_house, dayroom, room])).
-destination(sarara_camp, location(namunyak), plan(adventure), accommodation([private_house, dayroom, room])).
+destination(sarara_camp, location(namunyak), plan(romance), accommodation([sarara_house, room])).
+destination(sarara_camp, location(namunyak), plan(wildlife), accommodation([sarara_house, room])).
+destination(sarara_camp, location(namunyak), plan(adventure), accommodation([sarara_house, room])).
 
 %SARARA WILDERNESS
-destination(sarara_wilderness, location(namunyak), plan(wildliving), accommodation([private_house, dayroom, room])).
+destination(sarara_wilderness, location(namunyak), plan(wildliving), accommodation([room])).
 
 %RETETI HOUSE
-destination(reteti_house, location(namunyak), plan(villalife), accommodation([private_house, dayroom, room])).
+destination(reteti_house, location(namunyak), plan(villalife), accommodation([family_unit, room])).
 
 %OL MALO NOMAD
-destination(ol_malo_nomad, location(olmalo), plan(culture), accommodation([private_house, dayroom, room])).
+destination(ol_malo_nomad, location(olmalo), plan(culture), accommodation([room])).
 
 %OL MALO LODGE
-destination(ol_malo_lodge, location(olmalo), plan(romance), accommodation([private_house, dayroom, room])).
-destination(ol_malo_lodge, location(olmalo), plan(culture), accommodation([private_house, dayroom, room])).
-destination(ol_malo_lodge, location(olmalo), plan(adventure), accommodation([private_house, dayroom, room])).
-destination(ol_malo_lodge, location(olmalo), plan(wildliving), accommodation([private_house, dayroom, room])).
+destination(ol_malo_lodge, location(olmalo), plan(romance), accommodation([family_unit, room, guide_room])).
+destination(ol_malo_lodge, location(olmalo), plan(culture), accommodation([family_unit, room, guide_room])).
+destination(ol_malo_lodge, location(olmalo), plan(adventure), accommodation([family_unit, room, guide_room])).
+destination(ol_malo_lodge, location(olmalo), plan(wildliving), accommodation([family_unit, room, guide_room])).
 
 
 
 %OL MALO HOUSE
-destination(ol_malo_house, location(olmalo), plan(culture), accommodation([private_house, dayroom, room])).
-destination(ol_malo_house, location(olmalo), plan(villalife), accommodation([private_house, dayroom, room])).
+destination(ol_malo_house, location(olmalo), plan(culture), accommodation([family_unit, room])).
+destination(ol_malo_house, location(olmalo), plan(villalife), accommodation([family_unit, room])).
 
 %TANGULIA MARA CAMP
-destination(tangulia_mara_camp, location(marareserve), plan(adventure), accommodation([private_house, dayroom, room])).
+destination(tangulia_mara_camp, location(marareserve), plan(adventure), accommodation(family_uniy, room])).
 
 %TANGULIA NDOGO
-destination(tangulia_ndogo, location(marareserve), plan(culture), accommodation([private_house, dayroom, room])).
+destination(tangulia_ndogo, location(marareserve), plan(culture), accommodation([family_unit, room])).
 
 %LEWA HOUSE
-destination(lewa_house, location(lewa_wildlife_conservancy), plan(family), accommodation([private_house, dayroom, room])).
-destination(lewa_house, location(lewa_wildlife_conservancy), plan(romance), accommodation([private_house, dayroom, room])).
-destination(lewa_house, location(lewa_wildlife_conservancy), plan(wildlife), accommodation([private_house, dayroom, room])).
-destination(lewa_house, location(lewa_wildlife_conservancy), plan(wildliving), accommodation([private_house, dayroom, room])).
-destination(lewa_house, location(lewa_wildlife_conservancy), plan(conservation), accommodation([private_house, dayroom, room])).
+destination(lewa_house, location(lewa_wildlife_conservancy), plan(family), accommodation([family cottage, earthpod])).
+destination(lewa_house, location(lewa_wildlife_conservancy), plan(romance), accommodation([family cottage, earthpod])).
+destination(lewa_house, location(lewa_wildlife_conservancy), plan(wildlife), accommodation([family cottage, earthpod])).
+destination(lewa_house, location(lewa_wildlife_conservancy), plan(wildliving), accommodation([family cottage, earthpod])).
+destination(lewa_house, location(lewa_wildlife_conservancy), plan(conservation), accommodation([family cottage, earthpod])).
 
 %HOUSE IN THE WILD
-destination(house_in_the_wild, location(marareserve), plan(family), accommodation([private_house, dayroom, room])).
-destination(house_in_the_wild, location(marareserve), plan(wildliving), accommodation([private_house, dayroom, room])).
-destination(house_in_the_wild, location(marareserve), plan(conservation), accommodation([private_house, dayroom, room])).
+destination(house_in_the_wild, location(marareserve), plan(family), accommodation([family_unit, room])).
+destination(house_in_the_wild, location(marareserve), plan(wildliving), accommodation([family_unit, room])).
+destination(house_in_the_wild, location(marareserve), plan(conservation), accommodation([family_unit, room])).
 
 %NAISABAH
-destination(naisabah, location(lamu), plan(ocean), accommodation([dayroom, room])).
+destination(naisabah, location(lamu), plan(ocean), accommodation([room, bunk_room])).
 
 %EMAKOKO
 destination(the_emakoko, location(nairobi), plan(family), accommodation([private_house, dayroom, room])).
@@ -57,15 +57,6 @@ destination(the_emakoko, location(nairobi), plan(romance), accommodation([privat
 destination(the_emakoko, location(nairobi), plan(wildlife), accommodation([private_house, dayroom, room])).
 destination(the_emakoko, location(nairobi), plan(villalife), accommodation([private_house, dayroom, room])).
 destination(the_emakoko, location(nairobi), plan(wildliving), accommodation([private_house, dayroom, room])).
-
-
-%SAMBURU
-destination(samburu, location(samburu), plan(wildlife), accommodation([private_house, dayroom, room])).
-destination(samburu, location(samburu), plan(wildliving), accommodation([private_house, dayroom, room])).
-destination(samburu, location(samburu), plan(conservation), accommodation([private_house, dayroom, room])).
-
-
-
 
 % Rules for recommending destinations based on user preferences
 recommend_destination(Name, Plan, Accommodation, Location) :- 
@@ -82,7 +73,7 @@ start :-
 ask_preference :- 
     write('Enter safari plan (conservation, adventure, wildliving, romance, culture): '),
     read(Plan),
-    write('Enter accommodation preference (dayroom, room, private_house): '),
+    write('Enter accommodation preference (dayroom, room, private_house, family_unit): '),
     read(Accommodation),
     % Ensure input is in lowercase for case insensitivity (if required)
     downcase_atom(Accommodation, AccommodationLower),
